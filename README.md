@@ -1,50 +1,47 @@
 ![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
 ![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
 
-The open-source platform for monitoring and observability
+开源监控平台
 
-[![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
-[![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://drone.grafana.net/grafana/grafana)
-[![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
-
-Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
-
-- **Visualizations:** Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs.
-- **Dynamic Dashboards:** Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard.
-- **Explore Metrics:** Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side.
-- **Explore Logs:** Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live.
-- **Alerting:** Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie.
-- **Mixed Data Sources:** Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources.
-
-## Get started
-
-- [Get Grafana](https://grafana.com/get)
-- [Installation guides](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
-
-Unsure if Grafana is for you? Watch Grafana in action on [play.grafana.org](https://play.grafana.org/)!
-
-## Documentation
-
-The Grafana documentation is available at [grafana.com/docs](https://grafana.com/docs/).
-
-## Contributing
-
-If you're interested in contributing to the Grafana project:
-
-- Start by reading the [Contributing guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md).
-- Learn how to set up your local environment, in our [Developer guide](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md).
-- Explore our [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
-- Look through our [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
-
-## Get involved
-
-- Follow [@grafana on Twitter](https://twitter.com/grafana/).
-- Read and subscribe to the [Grafana blog](https://grafana.com/blog/).
-- If you have a specific question, check out our [discussion forums](https://community.grafana.com/).
-- For general discussions, join us on the [official Slack](https://slack.grafana.com) team.
-
-This project is tested with [BrowserStack](https://www.browserstack.com/)
-
-## License
-
-Grafana is distributed under [AGPL-3.0-only](LICENSE). For Apache-2.0 exceptions, see [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/grafana/grafana/blob/main/docs/logo-horizontal.png#gh-light-mode-only"><img src="/grafana/grafana/raw/main/docs/logo-horizontal.png#gh-light-mode-only" alt="Grafana 徽标（浅色）" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/grafana/grafana/blob/main/docs/logo-horizontal-dark.png#gh-dark-mode-only"><img src="/grafana/grafana/raw/main/docs/logo-horizontal-dark.png#gh-dark-mode-only" alt="Grafana 徽标（深色）" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于监控和可观察的开源平台</font></font></p>
+<p dir="auto"><a href="/grafana/grafana/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/44294b21aa86c80aca4ebfaa74783620751aa769ae74fae4f021f0fe3548a574/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f67726166616e612f67726166616e61" alt="执照" data-canonical-src="https://img.shields.io/github/license/grafana/grafana" style="max-width: 100%;"></a>
+<a href="https://drone.grafana.net/grafana/grafana" rel="nofollow"><img src="https://camo.githubusercontent.com/e4b6ed2b91671beb08aca433128de2f0eadb2044e2a0b7ca4348dcb8b8ab4fc1/68747470733a2f2f64726f6e652e67726166616e612e6e65742f6170692f6261646765732f67726166616e612f67726166616e612f7374617475732e737667" alt="无人机" data-canonical-src="https://drone.grafana.net/api/badges/grafana/grafana/status.svg" style="max-width: 100%;"></a>
+<a href="https://goreportcard.com/report/github.com/grafana/grafana" rel="nofollow"><img src="https://camo.githubusercontent.com/1b9e7e3a60dbd2bca2377c8facf4162f3214fc80108a97a1d0d4fa2fdd995077/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f67726166616e612f67726166616e61" alt="去报告卡" data-canonical-src="https://goreportcard.com/badge/github.com/grafana/grafana" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grafana 允许您查询、可视化、警报和了解您的指标，无论它们存储在何处。</font><font style="vertical-align: inherit;">与您的团队创建、探索和共享仪表板，并培养数据驱动的文化：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可视化：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速、灵活的客户端图表，具有多种选项。</font><font style="vertical-align: inherit;">面板插件提供了许多不同的方式来可视化指标和日志。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态仪表板：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用显示为仪表板顶部下拉菜单的模板变量创建动态且可重用的仪表板。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">探索指标：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过即席查询和动态钻取来探索数据。</font><font style="vertical-align: inherit;">拆分视图并并排比较不同的时间范围、查询和数据源。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">探索日志：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">体验从指标切换到带有保留标签过滤器的日志的魔力。</font><font style="vertical-align: inherit;">快速搜索所有日志或实时流式传输它们。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警报：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直观地定义最重要指标的警报规则。</font><font style="vertical-align: inherit;">Grafana 将持续评估并向 Slack、PagerDuty、VictorOps、OpsGenie 等系统发送通知。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混合数据源：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一个图表中混合不同的数据源！</font><font style="vertical-align: inherit;">您可以为每个查询指定数据源。</font><font style="vertical-align: inherit;">这甚至适用于自定义数据源。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-get-started" class="anchor" aria-hidden="true" tabindex="-1" href="#get-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用</font></font></h2>
+<ul dir="auto">
+<li><a href="https://grafana.com/get" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取格拉法纳</font></font></a></li>
+<li><a href="https://grafana.com/docs/grafana/latest/setup-grafana/installation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装指南</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不确定 Grafana 是否适合您？</font></font><a href="https://play.grafana.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在play.grafana.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上观看 Grafana 的实际操作</font><font style="vertical-align: inherit;">！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grafana 文档可在</font></font><a href="https://grafana.com/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">grafana.com/docs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上获取。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣为 Grafana 项目做出贡献：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先阅读</font></font><a href="https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我们的开发人员指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中了解如何设置本地环境</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">探索我们</font></font><a href="https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适合初学者的问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览我们的</font></font><a href="https://developers.grafana.com/ui/latest/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">风格指南和故事书</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-get-involved" class="anchor" aria-hidden="true" tabindex="-1" href="#get-involved"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与其中</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="https://twitter.com/grafana/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Twitter 上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关注@grafana </font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读并订阅</font></font><a href="https://grafana.com/blog/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grafana 博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有具体问题，请查看我们的</font></font><a href="https://community.grafana.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于一般性讨论，请加入我们的</font></font><a href="https://slack.grafana.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方 Slack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">团队。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://www.browserstack.com/" rel="nofollow"><font style="vertical-align: inherit;">该项目使用BrowserStack</font></a><font style="vertical-align: inherit;">进行测试</font></font><a href="https://www.browserstack.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/grafana/grafana/blob/main/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Grafana 在AGPL-3.0-only</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下分发</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">对于 Apache-2.0 例外情况，请参阅</font></font><a href="https://github.com/grafana/grafana/blob/HEAD/LICENSING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
